@@ -18,8 +18,7 @@
     [super viewDidLoad];
     
     
-    
-    
+    UILabel *label = [UILabel new];
     
 }
 
