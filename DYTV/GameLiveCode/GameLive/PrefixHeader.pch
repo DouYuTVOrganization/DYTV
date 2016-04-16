@@ -1,0 +1,49 @@
+//
+//  PrefixHeader.pch
+//  GameLive
+//
+//  Created by admin on 16/4/15.
+//  Copyright © 2016年 Tarena. All rights reserved.
+//
+
+#ifndef PrefixHeader_pch
+#define PrefixHeader_pch
+
+/** 头文件顺序也有讲究 程序编译也是有顺序的 */
+
+#import <UIKit/UIKit.h>
+#import <Foundation/Foundation.h>
+
+#import "AppDelegate.h"
+
+#import <AFNetworking.h>
+#import <UIKit+AFNetworking.h>
+
+#import <MJRefresh.h>
+
+
+#define equalTo(...)                     mas_equalTo(__VA_ARGS__)
+#define greaterThanOrEqualTo(...)        mas_greaterThanOrEqualTo(__VA_ARGS__)
+#define lessThanOrEqualTo(...)           mas_lessThanOrEqualTo(__VA_ARGS__)
+
+#define offset(...)
+
+#import <Masonry.h>
+
+/** 用于把原生的target+selector和delegate形式，转为block形式 */
+#import <BlocksKit.h>
+#import <BlocksKit+UIKit.h>
+
+#import "Constant.h"
+
+#import "UIView+HUD.h"
+
+#import <YYKit.h>
+
+#import "NSObject+NetWorking.h"
+
+
+#endif /* PrefixHeader_pch */
+
+
+
